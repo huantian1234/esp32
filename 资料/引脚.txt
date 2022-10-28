@@ -1,0 +1,7 @@
+墨水屏
+BUSY -> io25
+RST    -> io26
+DC     -> io27
+CS      -> io15(SPI SS)
+SCK   -> io14(SPI SCK)
+SDA   -> io13 (SPI MOSI)

@@ -20,8 +20,8 @@ void helloworld()
   int16_t tbx, tby;
   uint16_t tbw, tbh;
   display.getTextBounds(HelloWorld, 0, 0, &tbx, &tby, &tbw, &tbh);
-  uint16_t x = ((display.width() - tbw) / 2) - tbx;
-  uint16_t y = ((display.height() - tbh) / 2) - tby;
+  uint16_t x = ((display.width() - tbw) / 2);
+  uint16_t y = ((display.height() - tbh) / 2);
   Serial.print("X:");
   Serial.println(x);
   Serial.print("Y:");
